@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#1C189E">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FF0000"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:background="#4F10C4"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:background="#7959B5"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:background="#AAAAB5"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FAFA1E"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:background="#4F10C4"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:background="#7959B5"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:background="#AAAAB5"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
